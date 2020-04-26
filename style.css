@@ -64,3 +64,15 @@ color: black;
 
 
 }
+
+li {
+    text-align: center;
+    color: brown;
+    
+}
+
+a {
+    color:black ;
+    font-size: large;
+    font-weight: 200;
+}

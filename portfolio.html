@@ -1,34 +1,34 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    
+
     <!-- This is the first step in making the document responsive but scaling the items to screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Homework-2 Code Quiz -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!--This is the bootststrap source code -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-    
-    <!-- These are the attached portfolio and contact links and style.css-->
+
+    <!-- This is the style links -->
+    <!-- This is the attached portfolio and contact links-->
     <link rel="stylesheet" href="style.css">
     <link rel="Portfolio" href="portfolio.html">
     <link rel="contact" href="contact.html">
-    <link rel="home" href="home.html">
-    
-    <!-- This is the google font-->
+
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    
+
     <!-- This is the title-->
-    <title>Portfolio</title>
-    
-    <body>
+    <title>Sarita Das</title>
+</head>
+
+<body>
+    <!-- This is the navbar from bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand">Sarita Das</a>
+        <a class="navbar-brand" href="index.html">Sarita Das</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,10 +36,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                <a class="nav-link">Home</a>
+                    <a class="nav-link">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
@@ -47,57 +47,51 @@
             </ul>
         </div>
     </nav>
-</head>
-
-<body>
     <div class="container mt-3">
-        <h1 id="Portfolio">Portfolio</h1>
+
         <hr>
 
-        <div class="row mt-3">
-            <div class="col-4">
-                <div class="card" style="width: auto; height: auto;">
-                    <img src="linkedinimage.jfif" class="card-img-top img-fluid"
-                        alt="linkedin logo">
-                    <div class="card-body">
-                        <h5 class="card-title">LINKED IN PROFILE</h5>
-                        <p class="card-text">Stay connected through Linked in..</p>
-                        <a href="https://www.linkedin.com/in/sarita-das-65b1351a6/" class="btn btn-primary">Check it out</a>
+
+
+        <div class="row">
+            <div class="media col">
+                <div class="media-body col">
+                    <div class="list-group">
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="https://dswinicki8.github.io/Calories-tracker/">CALORIE TRACKER</a>
+                        </li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/hw3/">PASSWORD
+                                    GENERATOR</a>
+                            </li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/hw4/">CODE QUIZ</a>
+                            </li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/hw5/"> WORK DAY
+                                    PLANNER</a></li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/hw6/">WEATHER
+                                    DASHBOARD</a></li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/Giphy-Api/">GIPHY API</a>
+                            </li>
+                            <li class="list-group-item"><a href="https://sarita87das.github.io/Trivia-Game/">GAME
+                                    TRIVIA</a>
+                            </li>
+                            <li class="list-group-item"><a
+                                    href="https://www.linkedin.com/in/sarita-das-65b1351a6/">LINKED IN PROFILE</a>
+                            </li>
+                            <li class="list-group-item"><a href="https://github.com/sarita87das">GITHUB PAGE</a></li>
+                            <li class="list-group-item"><a
+                                    href="https://sarita87das.github.io/classproject2/">PORTFOLIO</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: auto; height: auto;">
-                    <img src="githubpic.png" class="card-img-top img-fluid" alt="instagram logo">
-                    <div class="card-body">
-                        <h5 class="card-title">GITHUB PAGE</h5>
-                        <p class="card-text">Check out my github account..
-                        </p>
-                        <a href="index.html" class="btn btn-primary">Check it out</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card" style="width: auto; height: auto;">
-                    <img src="library.jpg" class="card-img-top img-fluid" alt="My Library">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong> LIBRARY </strong></h5>
-                        <p class="card-text">Trying to collect some of my bests..Starting now.</p>
-                        <a href="#" class="btn btn-primary">Check it out</a>
-                    </div>
-                </div>
+                <img src="filespic.jpg" class="ml-3 img-fluid" alt="hands joined">
+
             </div>
         </div>
-    </div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <hr>
-</body>
-<div class="footer-copyright text-center py-3 footer-text">Sarita Das @
-    <a class="footer-text" href="index.html">Github</a>
-    <a class="footer-text" href="https://bootcamp.rutgers.edu/">Rutgers</a>
-    <a class="footer-text" href="https://www.facebook.com/nkkarna">Facebook</a>
-
-</html>
+        <!-- This is the footer -->
+        <footer></footer>
+        <div class="list-group">
+            <div class="footer-copyright text-center py-3 footer-text">Sarita Das @
+                <a class="footer-text" href="index.html">Github</a>
+                <a class="footer-text" href="https://bootcamp.rutgers.edu/">Rutgers</a>
+                <a class="footer-text" href="https://www.facebook.com/nkkarna">Facebook</a>
+            </div>
